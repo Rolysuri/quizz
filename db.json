@@ -1,7 +1,11 @@
 {
-  "User": {
-    "name": { "string": { "minLength": 3, "maxLength": 10 } },
-    "online": { "boolean": {} },
-    "picture": { "regexp": "https://…" }
+  "posts": [
+    {
+      "id": 1,
+      "title": "hello"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
 }
